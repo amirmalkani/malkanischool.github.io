@@ -1,0 +1,97 @@
+@media only screen and (max-width: 768px) {
+    #navb {
+        /* display: none; */
+        flex-direction: column;
+        /* height: 447px; */
+
+        transition: all 0.3s ease-out;
+    }
+
+
+    nav {
+        overflow: visible;
+    }
+
+    .nav_ul {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .cover_h1 {}
+
+    .course_h3 {
+        font-size: 5vw;
+        margin-top: 0;
+    }
+
+    .about_div {
+        padding: 23px;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cover_p0 {
+        width: 100%;
+        font-size: 1.9vw;
+    }
+
+    .about_div img {
+        margin-bottom: 23px;
+        margin-right: 0;
+    }
+
+    .Navbar__Items--right {
+        margin-left: 0;
+    }
+
+    .card_ad {
+        font-size: 3.2vw;
+    }
+
+    .card_ad-more {
+        font-size: 2.8vw;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card1 {
+        width: 70%;
+        box-sizing: border-box;
+        align-self: center;
+    }
+
+    .cardsCourse {
+        flex-direction: column;
+    }
+
+    .footer {
+        font-size: 2.5vw;
+    }
+
+    .login-box {
+        width: 80%;
+    }
+
+    .login-box h2 {
+        font-size: 3.2vw;
+    }
+
+    .h-nav-resp {
+        height: 72px;
+    }
+
+    .v-nav-resp {
+        opacity: 0;
+    }
+
+    #navbar-toggle {
+        display: block;
+    }
+}
