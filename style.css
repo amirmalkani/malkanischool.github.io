@@ -11,7 +11,7 @@
 }
 
 .img_up{
-    background: url("images/imgg.jpg") no-repeat  center;
+    background: url("/images/imgg.jpg") no-repeat  center;
     background-size: cover;
 }
 
